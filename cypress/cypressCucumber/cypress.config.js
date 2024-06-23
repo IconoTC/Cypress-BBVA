@@ -19,7 +19,6 @@ module.exports = defineConfig({
       require('cypress-mochawesome-reporter/plugin')(on);
     },
     failOnStatusCode: false,
-   // baseUrl: 'https://jsonplaceholder.typicode.com',
     chromeWebSecurity: false,
     specPattern: ['**/*.feature', '**/apiTests/*/*.js'],
     defaultCommandTimeout: 10000,
